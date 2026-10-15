@@ -1,0 +1,19 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Get Your Report | ICC</title><meta name="description" content="Enter your location and tell us what you want to know. ICC will suggest the most useful starting point.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head><body>
+<header><nav><a class="logo" href="index.html">ICC</a><a href="index.html">Home</a><a href="what-can-we-do.html">What Can We Do?</a><a href="products.html">Products</a><a href="how-it-works.html">How It Works</a><a href="about.html">About ICC</a><a href="faq.html">FAQs</a><a class="btn" href="get-report.html">Get Your Report</a></nav></header>
+<main>
+<section><h1>Start with a location</h1><p>Tell us where the place is and what you're trying to do. We'll suggest the best starting point and confirm price and delivery time before you pay.</p>
+<!-- Replace YOUR_FORM_ID with your Formspree form ID (formspree.io), or swap the action for a Tally/Google Form link -->
+<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+<div><label for="n">Your name</label><input id="n" name="name" required></div>
+<div><label for="e">Email or WhatsApp number</label><input id="e" name="contact" required></div>
+<div><label for="l">Location (Google Maps link or coordinates)</label><input id="l" name="location" required></div>
+<div><label for="p">Product</label><select id="p" name="product"><option>Not sure, suggest one</option><option>Know Your Place</option><option>Property Intelligence</option><option>Land Intelligence</option><option>Site Intelligence</option><option>Location Comparison</option></select></div>
+<div><label for="q">What would you like to know?</label><textarea id="q" name="question" rows="5"></textarea></div>
+<button type="submit">Send my request</button></form></section></main>
+<footer><p style="margin:0 auto 8px"><strong>ICC</strong> Intelligence for Places, Land &amp; Environments</p>
+<p style="margin:0 auto 8px"><a href="index.html">Home</a><a href="what-can-we-do.html">What Can We Do?</a><a href="products.html">Products</a><a href="how-it-works.html">How It Works</a><a href="about.html">About ICC</a><a href="faq.html">FAQs</a><a href="get-report.html">Contact</a></p>
+<p style="margin:0 auto">&copy; 2026 ICC. All rights reserved.</p></footer></body></html>
